@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Datastripes Widgets: forecasting, anomaly detection and dashboards for any frontend">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030d08"/>
+      <stop offset="0.55" stop-color="#06190f"/>
+      <stop offset="1" stop-color="#0a2a19"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00a85a"/>
+      <stop offset="0.5" stop-color="#00d86f"/>
+      <stop offset="1" stop-color="#7dffb8"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00d86f" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#00d86f" stop-opacity="0.03"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00d86f" stroke-opacity="0.07"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.8" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#00d86f" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#00d86f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="400" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#grid)"/>
+  <rect width="1280" height="400" rx="24" fill="url(#glow)"/>
+
+  <!-- decorative series: history, forecast band, anomalies -->
+  <path d="M640 300 L700 270 L760 284 L820 236 L880 252 L940 206 L1000 222 L1060 176 L1120 150 L1180 120 L1240 96 L1240 190 L1180 206 L1120 222 L1060 236 Z" fill="url(#band)"/>
+  <polyline points="640,300 700,270 760,284 820,236 880,252 940,206 1000,222 1060,206" fill="none" stroke="url(#line)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="1060,206 1120,186 1180,163 1240,143" fill="none" stroke="#7dffb8" stroke-width="4" stroke-dasharray="10 10" stroke-linecap="round"/>
+  <circle cx="820" cy="236" r="9" fill="#f59e0b" stroke="#030d08" stroke-width="3"/>
+  <circle cx="940" cy="206" r="10" fill="#ef4444" stroke="#030d08" stroke-width="3"/>
+  <circle cx="1060" cy="206" r="7" fill="#ffffff"/>
+
+  <!-- mini dashboard tiles -->
+  <g opacity="0.95">
+    <rect x="980" y="300" width="120" height="64" rx="10" fill="#00d86f" fill-opacity="0.07" stroke="#00d86f" stroke-opacity="0.3"/>
+    <rect x="996" y="318" width="50" height="8" rx="4" fill="#8fb3a0"/>
+    <rect x="996" y="336" width="80" height="14" rx="4" fill="#e6f5ec"/>
+    <rect x="1112" y="300" width="128" height="64" rx="10" fill="#00d86f" fill-opacity="0.07" stroke="#00d86f" stroke-opacity="0.3"/>
+    <rect x="1128" y="340" width="12" height="14" rx="2" fill="#00a85a"/>
+    <rect x="1146" y="326" width="12" height="28" rx="2" fill="#00d86f"/>
+    <rect x="1164" y="332" width="12" height="22" rx="2" fill="#3ee891"/>
+    <rect x="1182" y="316" width="12" height="38" rx="2" fill="#7dffb8"/>
+    <rect x="1200" y="322" width="12" height="32" rx="2" fill="#00d86f"/>
+  </g>
+
+  <!-- text -->
+  <text x="72" y="118" font-family="Inter, Segoe UI, system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" letter-spacing="4" fill="#00d86f">DATASTRIPES</text>
+  <text x="72" y="186" font-family="Inter, Segoe UI, system-ui, -apple-system, sans-serif" font-size="58" font-weight="800" fill="#ffffff">Data widgets for</text>
+  <text x="72" y="252" font-family="Inter, Segoe UI, system-ui, -apple-system, sans-serif" font-size="58" font-weight="800" fill="url(#line)">any frontend</text>
+  <text x="72" y="306" font-family="Inter, Segoe UI, system-ui, -apple-system, sans-serif" font-size="22" fill="#c4dccf">Forecasting, anomaly detection and dashboards.</text>
+  <text x="72" y="340" font-family="Inter, Segoe UI, system-ui, -apple-system, sans-serif" font-size="22" fill="#c4dccf">React, Vue, Angular and Web Components. Runs in the browser.</text>
+</svg>

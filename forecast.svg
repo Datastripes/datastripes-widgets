@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="340" viewBox="0 0 640 340" role="img" aria-label="Illustration of a forecast chart: history line, dashed forecast and confidence band">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030d08"/>
+      <stop offset="1" stop-color="#0a2a19"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00d86f" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00d86f" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="340" rx="20" fill="url(#bg)"/>
+  <g stroke="#00d86f" stroke-opacity="0.09">
+    <line x1="48" y1="90" x2="600" y2="90"/><line x1="48" y1="150" x2="600" y2="150"/>
+    <line x1="48" y1="210" x2="600" y2="210"/><line x1="48" y1="270" x2="600" y2="270"/>
+  </g>
+  <line x1="400" y1="70" x2="400" y2="282" stroke="#8fb3a0" stroke-opacity="0.6" stroke-dasharray="4 6"/>
+  <text x="408" y="82" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="13" fill="#8fb3a0">today</text>
+  <path d="M400 196 L450 170 L500 150 L550 126 L600 104 L600 214 L550 222 L500 228 L450 228 L400 206 Z" fill="url(#band)"/>
+  <polyline points="48,252 92,236 136,246 180,214 224,226 268,194 312,206 356,182 400,201" fill="none" stroke="#e6f5ec" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="400,201 450,199 500,189 550,174 600,159" fill="none" stroke="#00d86f" stroke-width="4" stroke-dasharray="10 8" stroke-linecap="round"/>
+  <circle cx="400" cy="201" r="6" fill="#00d86f"/>
+  <text x="48" y="48" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">@datastripes/forecast</text>
+  <text x="48" y="318" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14" fill="#8fb3a0">9 algorithms · 80 / 90 / 95% confidence band · WebAssembly</text>
+</svg>
