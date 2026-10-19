@@ -45,7 +45,7 @@ Three npm packages for the data features users keep asking for: a forecast of wh
       <br><br><code>npm i @datastripes/anomaly</code>
     </td>
     <td width="33%" valign="top">
-      <a href="#dashboard-builder"><img src="assets/dashboard.svg" alt="Dashboard widget illustration"></a>
+      <a href="#dashboard-builder"><img src="dashboard.svg" alt="Dashboard widget illustration"></a>
       <h3><a href="#dashboard-builder">Dashboard builder</a></h3>
       An editable grid dashboard driven by a JSON config you can store.
       <br><br><code>npm i @datastripes/dashboard</code>
