@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://datastripes.com/?utm_source=github&utm_medium=readme&utm_campaign=widgets">
-    <img src="assets/banner.svg" alt="Datastripes widgets: forecasting, anomaly detection and dashboards for any frontend" width="100%">
+    <img src="banner.svg" alt="Datastripes widgets: forecasting, anomaly detection and dashboards for any frontend" width="100%">
   </a>
 </p>
 
@@ -33,13 +33,13 @@ Three npm packages for the data features users keep asking for: a forecast of wh
 <table>
   <tr>
     <td width="33%" valign="top">
-      <a href="#forecast"><img src="forecast.png" alt="Forecast widget illustration"></a>
+      <a href="#forecast"><img src="forecast.svg" alt="Forecast widget illustration"></a>
       <h3><a href="#forecast">Forecast</a></h3>
       Time series forecasting with nine algorithms and a confidence band.
       <br><br><code>npm i @datastripes/forecast</code>
     </td>
     <td width="33%" valign="top">
-      <a href="#anomaly-detection"><img src="anomaly.png" alt="Anomaly widget illustration"></a>
+      <a href="#anomaly-detection"><img src="anomaly.svg" alt="Anomaly widget illustration"></a>
       <h3><a href="#anomaly-detection">Anomaly detection</a></h3>
       Six detection methods for time series, plus scatter detection for pairs of metrics.
       <br><br><code>npm i @datastripes/anomaly</code>
@@ -56,6 +56,8 @@ Three npm packages for the data features users keep asking for: a forecast of wh
 ## Forecast
 
 <a href="https://datastripes.com/forecast-widget/"><img src="assets/forecast.svg" alt="Forecast widget" width="420" align="right"></a>
+
+![Forecast widget](forecast.png)
 
 `@datastripes/forecast` turns a history of dates and values into a projection with a confidence band, computed by a WebAssembly engine in the browser.
 
@@ -91,6 +93,8 @@ import { DatastripesForecast } from '@datastripes/forecast/react';
 
 <a href="https://datastripes.com/anomaly-widget/"><img src="assets/anomaly.svg" alt="Anomaly widget" width="420" align="right"></a>
 
+![Anomaly widget](anomaly.png)
+
 `@datastripes/anomaly` flags the points that break the pattern and draws them on a chart, with a shaded band for the expected range and dots colored by severity.
 
 - Six methods: `zscore`, `rolling_zscore`, `iqr`, `mad`, `stl_residual` and `ensemble`, a majority vote of the other five
@@ -123,6 +127,8 @@ import { DatastripesAnomaly } from '@datastripes/anomaly/react';
 ## Dashboard builder
 
 <a href="https://datastripes.com/dashboard-widget/"><img src="assets/dashboard.svg" alt="Dashboard widget" width="420" align="right"></a>
+
+![Dashboard builder widget](dashboard.png)
 
 `@datastripes/dashboard` renders a dashboard from an array of rows and a JSON config. In edit mode your users add widgets, drag and resize them, and save the result.
 
