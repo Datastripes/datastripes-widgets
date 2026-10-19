@@ -33,13 +33,13 @@ Three npm packages for the data features users keep asking for: a forecast of wh
 <table>
   <tr>
     <td width="33%" valign="top">
-      <a href="#forecast"><img src="assets/forecast.svg" alt="Forecast widget illustration"></a>
+      <a href="#forecast"><img src="forecast.png" alt="Forecast widget illustration"></a>
       <h3><a href="#forecast">Forecast</a></h3>
       Time series forecasting with nine algorithms and a confidence band.
       <br><br><code>npm i @datastripes/forecast</code>
     </td>
     <td width="33%" valign="top">
-      <a href="#anomaly-detection"><img src="assets/anomaly.svg" alt="Anomaly widget illustration"></a>
+      <a href="#anomaly-detection"><img src="anomaly.png" alt="Anomaly widget illustration"></a>
       <h3><a href="#anomaly-detection">Anomaly detection</a></h3>
       Six detection methods for time series, plus scatter detection for pairs of metrics.
       <br><br><code>npm i @datastripes/anomaly</code>
